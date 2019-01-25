@@ -1,0 +1,54 @@
+# Element
+## Các đặc điểm 
+- Element chứa thẻ bắt đầu và thẻ kết thúc. Ở giữa chúng là content của thẻ
+- Các Element có thể lồng nhau
+- Đừng quên đóng thẻ
+
+## Atributes (thuộc tính)
+Các thuộc tính cung cấp thêm thông tin cho element
+- Thuộc tính href: tạo đường link
+`<a href="https://www.w3schools.com">This is a link</a>`
+
+- Thuộc tính src: cung cấp nguồn 
+`<img src="img_girl.jpg">`
+
+- Thuộc tính dài rộng: cung cấp số đo cho hình ảnh 
+`<img src="img_girl.jpg" width="500" height="600">`
+
+- Thuộc tính alt: Nếu không hiện được ảnh thì nó sẽ hiện dòng text thay thế
+`<img src="img_girl.jpg" alt="Girl with a jacket">`
+
+- Thuộc tính style: để khai báo font, kiểu màu, cỡ chữ
+`<p style="color:red">I am a paragraph</p>`
+
+- Thuộc tính lang: Khai báo ngôn ngữ sử dụng cho html này. Sẽ cần cho các search engine
+`<html lang="en-US">`
+
+- Thuộc tính title: Khi di chuột vào cái nội dung thì nó sẽ hiện ra dòng chữ nhỏ nhỏ
+`<h2 title="I'm a header">The title Attribute</h2>`
+
+
+## Các thẻ 
+- Thẻ header là mấy cái chữ to to đầu dòng
+Cú pháp nó là như này
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+![image](https://user-images.githubusercontent.com/45547213/51751092-8526f300-20e6-11e9-8ad5-7a53e2eb657e.png)
+
+Ngoài ra các bạn có thể chỉnh sửa kích thước của heading tùy ý nhờ thuộc tính style
+`<h1 style="font-size:60px;">Heading 1</h1>`
+
+- Thẻ paragraph
+```
+<p> Thẻ </p>
+```
+nó không phân biệt được đâu là xuống dòng đâu là không
+muốn dùng xuống dòng phải có thẻ <br>
+
+- Thẻ 
